@@ -127,7 +127,7 @@ Similar to Guzzle, CurlMultiConnection will work seamlessly with publicly signed
 [source,php]
 ----
 $params = array();
-$params['connectionClass'] = '\Elasticsearch\Connections\CurlMultiConnection';
+$params['connectionClass'] = '\TippingCanoeEs\Connections\CurlMultiConnection';
 
 $params['hosts'] = array (
     'https://localhost:9200' <1>
@@ -143,7 +143,7 @@ CurlMultiConnection:
 [source,php]
 ----
 $params = array();
-$params['connectionClass'] = '\Elasticsearch\Connections\CurlMultiConnection';
+$params['connectionClass'] = '\TippingCanoeEs\Connections\CurlMultiConnection';
 
 $params['hosts'] = array (
     'https://localhost:9200'
@@ -164,7 +164,7 @@ To use self-signed certificates, you need to provide the certificate, just like 
 [source,php]
 ----
 $params = array();
-$params['connectionClass'] = '\Elasticsearch\Connections\CurlMultiConnection';
+$params['connectionClass'] = '\TippingCanoeEs\Connections\CurlMultiConnection';
 
 $params['hosts'] = array (
     'https://localhost:9200'

@@ -30,10 +30,10 @@ class CurlMultiConnectionTest extends \PHPUnit_Framework_TestCase
     /**
      * Test no multihandle
      *
-     * @expectedException \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      * @expectedExceptionMessage curlMultiHandle must be set in connectionParams
      *
-     * @covers \Elasticsearch\Connections\CurlMultiConnection::performRequest
+     * @covers \TippingCanoeEs\Connections\CurlMultiConnection::performRequest
      * @return void
      */
     public function testNoMultihandle()
@@ -52,9 +52,9 @@ class CurlMultiConnectionTest extends \PHPUnit_Framework_TestCase
     /**
      * Test bad host name
      *
-     * @expectedException \Elasticsearch\Common\Exceptions\TransportException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\TransportException
      *
-     * @covers \Elasticsearch\Connections\CurlMultiConnection::performRequest
+     * @covers \TippingCanoeEs\Connections\CurlMultiConnection::performRequest
      * @return void
      */
     public function testBadHost()

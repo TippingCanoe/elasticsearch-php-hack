@@ -26,7 +26,7 @@ class SnapshotTest extends \PHPUnit_Framework_TestCase
 
     public function testValidSnapshotWithNoIndex()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'POST',
@@ -44,7 +44,7 @@ class SnapshotTest extends \PHPUnit_Framework_TestCase
     public function testValidSnapshotWithIndex()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'POST',

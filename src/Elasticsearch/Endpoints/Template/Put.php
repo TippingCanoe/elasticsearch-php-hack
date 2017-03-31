@@ -40,7 +40,7 @@ class Put extends AbstractEndpoint
 
 
     /**
-     * @throws \Elasticsearch\Common\Exceptions\RuntimeException
+     * @throws \TippingCanoeEs\Common\Exceptions\RuntimeException
      * @return string
      */
     protected function getURI()

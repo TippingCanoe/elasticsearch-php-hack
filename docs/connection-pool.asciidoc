@@ -47,7 +47,7 @@ Changing the connection pool is very simple: instantiate the client with your ch
 
 [source,php]
 ----
-$params['connectionPoolClass'] = '\Elasticsearch\ConnectionPool\SniffingConnectionPool';
+$params['connectionPoolClass'] = '\TippingCanoeEs\ConnectionPool\SniffingConnectionPool';
 $client = new Elasticsearch\Client($params);
 ----
 {zwsp} +
@@ -89,7 +89,7 @@ Changing the selector is also very simple: instantiate the client with your chos
 
 [source,php]
 ----
-$params['selectorClass'] = '\Elasticsearch\ConnectionPool\Selectors\RandomSelector';
+$params['selectorClass'] = '\TippingCanoeEs\ConnectionPool\Selectors\RandomSelector';
 $client = new Elasticsearch\Client($params);
 ----
 {zwsp} +

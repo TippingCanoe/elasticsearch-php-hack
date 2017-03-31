@@ -27,7 +27,7 @@ class StateTest extends \PHPUnit_Framework_TestCase
 
     public function testValidState()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',

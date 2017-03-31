@@ -26,7 +26,7 @@ abstract class AbstractAliasEndpoint extends AbstractEndpoint
     /**
      * @param $name
      *
-     * @throws \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @throws \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      *
      * @return $this
      */

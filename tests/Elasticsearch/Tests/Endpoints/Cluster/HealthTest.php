@@ -29,7 +29,7 @@ class HealthTest extends \PHPUnit_Framework_TestCase
 
         $uri = '/_cluster/health';
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',
@@ -48,7 +48,7 @@ class HealthTest extends \PHPUnit_Framework_TestCase
     {
         $uri = '/_cluster/health/testIndex';
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',

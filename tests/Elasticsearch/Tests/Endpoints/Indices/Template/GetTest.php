@@ -28,7 +28,7 @@ class GetTest extends \PHPUnit_Framework_TestCase
     public function testValidGetNoName()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
             ->shouldReceive('performRequest')->once()
             ->with(
                 'GET',
@@ -47,7 +47,7 @@ class GetTest extends \PHPUnit_Framework_TestCase
     public function testValidGet()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',

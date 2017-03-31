@@ -27,12 +27,12 @@ class IndexingEvent extends AthleticEvent
     protected function classSetUp()
     {
         $curlParams = array(
-            'connectionClass' => '\Elasticsearch\Connections\CurlMultiConnection'
+            'connectionClass' => '\TippingCanoeEs\Connections\CurlMultiConnection'
         );
         $this->client = new Client($curlParams);
 
         $guzzleParams = array(
-            'connectionClass' => '\Elasticsearch\Connections\GuzzleConnection'
+            'connectionClass' => '\TippingCanoeEs\Connections\GuzzleConnection'
         );
         $this->guzzleClient = new Client($guzzleParams);
 

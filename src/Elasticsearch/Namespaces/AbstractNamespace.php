@@ -21,7 +21,7 @@ use TippingCanoeEs\Transport;
  */
 abstract class AbstractNamespace
 {
-    /** @var \Elasticsearch\Transport  */
+    /** @var \TippingCanoeEs\Transport  */
     protected $transport;
 
     /** @var  callback */

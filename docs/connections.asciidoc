@@ -29,7 +29,7 @@ Changing the connection class is very simple: instantiate the client with your c
 
 [source,php]
 ----
-$params['connectionClass'] = '\Elasticsearch\Connections\CurlMultiConnection';
+$params['connectionClass'] = '\TippingCanoeEs\Connections\CurlMultiConnection';
 $client = new Elasticsearch\Client($params);
 ----
 {zwsp} +
@@ -43,7 +43,7 @@ The easiest way to do this is to over-ride one of the existing connection classe
 ----
 namespace MyProject;
 
-class MyConnection extends \Elasticsearch\Connections\GuzzleConnection {
+class MyConnection extends \TippingCanoeEs\Connections\GuzzleConnection {
 
     /**
      * Perform an HTTP request on the cluster

@@ -29,11 +29,11 @@ class DICBuilder
      * @var array
      */
     protected $paramDefaults = array(
-        'connectionClass'       => '\Elasticsearch\Connections\GuzzleConnection',
-        'connectionFactoryClass'=> '\Elasticsearch\Connections\ConnectionFactory',
-        'connectionPoolClass'   => '\Elasticsearch\ConnectionPool\StaticNoPingConnectionPool',
-        'selectorClass'         => '\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector',
-        'serializerClass'       => '\Elasticsearch\Serializers\SmartSerializer',
+        'connectionClass'       => '\TippingCanoeEs\Connections\GuzzleConnection',
+        'connectionFactoryClass'=> '\TippingCanoeEs\Connections\ConnectionFactory',
+        'connectionPoolClass'   => '\TippingCanoeEs\ConnectionPool\StaticNoPingConnectionPool',
+        'selectorClass'         => '\TippingCanoeEs\ConnectionPool\Selectors\RoundRobinSelector',
+        'serializerClass'       => '\TippingCanoeEs\Serializers\SmartSerializer',
         'sniffOnStart'          => false,
         'connectionParams'      => array(),
         'logging'               => false,
@@ -302,12 +302,12 @@ class DICBuilder
             $connectionParams = $dicParams['connectionParams'];
 
             // Multihandle connections need a "static", shared curl multihandle.
-            if ($dicParams['connectionClass'] === '\Elasticsearch\Connections\CurlMultiConnection' || is_subclass_of($dicParams['connectionClass'], '\Elasticsearch\Connections\CurlMultiConnection')) {
+            if ($dicParams['connectionClass'] === '\TippingCanoeEs\Connections\CurlMultiConnection' || is_subclass_of($dicParams['connectionClass'], '\TippingCanoeEs\Connections\CurlMultiConnection')) {
                 $connectionParams = array_merge(
                     $connectionParams,
                     array('curlMultiHandle' => $dicParams['curlMultiHandle'])
                 );
-            } elseif ($dicParams['connectionClass'] === '\Elasticsearch\Connections\GuzzleConnection' || is_subclass_of($dicParams['connectionClass'], '\Elasticsearch\Connections\GuzzleConnection')) {
+            } elseif ($dicParams['connectionClass'] === '\TippingCanoeEs\Connections\GuzzleConnection' || is_subclass_of($dicParams['connectionClass'], '\TippingCanoeEs\Connections\GuzzleConnection')) {
                 $connectionParams = array_merge(
                     $connectionParams,
                     array('guzzleClient' => $dicParams['guzzleClient'])
@@ -352,7 +352,7 @@ class DICBuilder
     {
         $dicParams = $this->dic;
         $this->dic['endpoint'] = $this->dic->protect(function ($class) use ($dicParams) {
-            $fullPath = '\\Elasticsearch\\Endpoints\\'.$class;
+            $fullPath = '\\TippingCanoeEs\\Endpoints\\'.$class;
             if ($class === 'Bulk' || $class === 'Msearch' || $class === 'MPercolate') {
                 return new $fullPath($dicParams['transport'], $dicParams['serializer']);
             } else {

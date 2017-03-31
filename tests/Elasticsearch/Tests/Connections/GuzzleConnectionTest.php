@@ -29,7 +29,7 @@ class GuzzleConnectionTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      */
     public function testNoGuzzleClient()
     {

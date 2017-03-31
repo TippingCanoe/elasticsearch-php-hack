@@ -29,7 +29,7 @@ class PutTest extends \PHPUnit_Framework_TestCase
     {
         $query['docs'] = '1';
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  m::any(),
@@ -48,7 +48,7 @@ class PutTest extends \PHPUnit_Framework_TestCase
     public function testValidSegmentsWithNoIndex()
     {
         $body['docs'] = '1';
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'PUT',
@@ -66,7 +66,7 @@ class PutTest extends \PHPUnit_Framework_TestCase
     public function testValidSegmentsWithIndex()
     {
         $body['docs'] = '1';
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'PUT',

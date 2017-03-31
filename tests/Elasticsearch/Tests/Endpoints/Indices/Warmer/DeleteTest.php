@@ -31,7 +31,7 @@ class DeleteTest extends \PHPUnit_Framework_TestCase
     public function testDeleteNoIndex()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Delete($mockTransport);
         $action->performRequest();
@@ -45,7 +45,7 @@ class DeleteTest extends \PHPUnit_Framework_TestCase
     public function testDeleteWithOnlyIndex()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Delete($mockTransport);
         $action->setIndex('testIndex')->performRequest();
@@ -58,7 +58,7 @@ class DeleteTest extends \PHPUnit_Framework_TestCase
     public function testDeleteWithOnlyName()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Delete($mockTransport);
         $action->setName('testName')->performRequest();
@@ -67,7 +67,7 @@ class DeleteTest extends \PHPUnit_Framework_TestCase
     public function testDeleteWithIndexAndName()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'DELETE',

@@ -33,7 +33,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      */
     public function testConstructorStringHost()
     {
@@ -81,7 +81,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
 
     /**
-     * @expectedException \Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost
+     * @expectedException \TippingCanoeEs\Common\Exceptions\Curl\CouldNotConnectToHost
      */
     public function testBadHost()
     {
@@ -95,7 +95,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
 
     /**
-     * @expectedException \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      */
     public function testConstructorIllegalPort()
     {
@@ -107,7 +107,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost
+     * @expectedException \TippingCanoeEs\Common\Exceptions\Curl\CouldNotConnectToHost
      */
     public function testZeroRetries()
     {
@@ -206,7 +206,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
     /**
      *
-     * @expectedException \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      *
      * @return void
      */
@@ -221,7 +221,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
     /**
      *
-     * @expectedException \Elasticsearch\Common\Exceptions\UnexpectedValueException
+     * @expectedException \TippingCanoeEs\Common\Exceptions\UnexpectedValueException
      *
      * @return void
      */

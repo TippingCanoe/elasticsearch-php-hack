@@ -25,7 +25,7 @@ class Update extends AbstractEndpoint
     /**
      * @param array $body
      *
-     * @throws \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @throws \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      * @return $this
      */
     public function setBody($body)
@@ -42,7 +42,7 @@ class Update extends AbstractEndpoint
 
 
     /**
-     * @throws \Elasticsearch\Common\Exceptions\RuntimeException
+     * @throws \TippingCanoeEs\Common\Exceptions\RuntimeException
      * @return string
      */
     protected function getURI()

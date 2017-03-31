@@ -36,7 +36,7 @@ class {{ className|title }} extends AbstractEndpoint
     /**
      * @param array $body
      *
-     * @throws \Elasticsearch\Common\Exceptions\InvalidArgumentException
+     * @throws \TippingCanoeEs\Common\Exceptions\InvalidArgumentException
      * @return $this
      */
     public function setBody($body)
@@ -81,7 +81,7 @@ class {{ className|title }} extends AbstractEndpoint
     /**
 {% for part, info in data.url.parts %}
 {% if info.required is not null %}
-{% set exception = '     * @throws \\Elasticsearch\\Common\\Exceptions\\BadMethodCallException
+{% set exception = '     * @throws \\TippingCanoeEs\\Common\\Exceptions\\BadMethodCallException
 ' %}
 {% endif %}
 {% endfor %}{% autoescape false %}{{ exception }}{% endautoescape %}
@@ -132,7 +132,7 @@ class {{ className|title }} extends AbstractEndpoint
 {% if data.body.required == true %}
     /**
      * @return array
-     * @throws \Elasticsearch\Common\Exceptions\RuntimeException
+     * @throws \TippingCanoeEs\Common\Exceptions\RuntimeException
      */
     protected function getBody()
     {

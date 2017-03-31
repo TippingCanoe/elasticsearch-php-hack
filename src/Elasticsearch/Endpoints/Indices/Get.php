@@ -26,7 +26,7 @@ class Get extends AbstractEndpoint
     private $feature;
 
     /**
-     * @throws \Elasticsearch\Common\Exceptions\RuntimeException
+     * @throws \TippingCanoeEs\Common\Exceptions\RuntimeException
      * @return string
      */
     protected function getURI()

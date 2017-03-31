@@ -30,7 +30,7 @@ class PercolateTest extends \PHPUnit_Framework_TestCase
     public function testNoIndex()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Percolate($mockTransport);
         $action->setType('testType')->setID('testID')->performRequest();
@@ -43,7 +43,7 @@ class PercolateTest extends \PHPUnit_Framework_TestCase
     public function testNoType()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Percolate($mockTransport);
         $action->setIndex('testIndex')->setID('testID')->performRequest();
@@ -53,7 +53,7 @@ class PercolateTest extends \PHPUnit_Framework_TestCase
     public function testValidPercolate()
     {
         $body = 'abc';
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',

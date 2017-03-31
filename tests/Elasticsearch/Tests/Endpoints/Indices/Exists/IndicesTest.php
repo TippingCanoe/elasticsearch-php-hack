@@ -30,7 +30,7 @@ class IndicesTest extends \PHPUnit_Framework_TestCase
      */
     public function testNoIndex()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $index = new Exists($mockTransport);
         $index->performRequest();
@@ -39,7 +39,7 @@ class IndicesTest extends \PHPUnit_Framework_TestCase
 
     public function testValidIndicesExists()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'HEAD',

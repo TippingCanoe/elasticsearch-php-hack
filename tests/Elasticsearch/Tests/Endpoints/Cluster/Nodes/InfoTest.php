@@ -27,7 +27,7 @@ class InfoTest extends \PHPUnit_Framework_TestCase
 
     public function testValidSettingsWithNodeID()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()->once()
                          ->with(
                                  'GET',
@@ -49,7 +49,7 @@ class InfoTest extends \PHPUnit_Framework_TestCase
      */
     public function testValidSettingsWithInvalidNodeID()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Info($mockTransport);
 
@@ -62,7 +62,7 @@ class InfoTest extends \PHPUnit_Framework_TestCase
 
     public function testValidSettingsWithoutNodeID()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',

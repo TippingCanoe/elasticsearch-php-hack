@@ -23,7 +23,7 @@ class ConnectionFactoryTest extends \PHPUnit_Framework_TestCase
 
     public function testCreate()
     {
-        $mockConnection = m::mock('\Elasticsearch\Connections\AbstractConnection');
+        $mockConnection = m::mock('\TippingCanoeEs\Connections\AbstractConnection');
         $mockFunction = function($hostDetails, $params, $log, $trace) use ($mockConnection) {
             return $mockConnection;
         };

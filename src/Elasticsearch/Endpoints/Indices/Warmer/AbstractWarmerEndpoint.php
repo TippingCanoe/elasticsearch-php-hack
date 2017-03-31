@@ -31,7 +31,7 @@ abstract class AbstractWarmerEndpoint extends AbstractEndpoint
 
     /**
      * @return string
-     * @throws \Elasticsearch\Common\Exceptions\RuntimeException
+     * @throws \TippingCanoeEs\Common\Exceptions\RuntimeException
      */
     protected function getWarmerURI()
     {

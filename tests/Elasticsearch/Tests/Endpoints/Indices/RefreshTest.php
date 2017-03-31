@@ -25,7 +25,7 @@ class RefreshTest extends \PHPUnit_Framework_TestCase
 
     public function testValidRefreshWithNoIndex()
     {
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',
@@ -43,7 +43,7 @@ class RefreshTest extends \PHPUnit_Framework_TestCase
     public function testValidRefreshWithIndex()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'GET',

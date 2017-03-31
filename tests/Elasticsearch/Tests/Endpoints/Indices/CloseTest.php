@@ -30,7 +30,7 @@ class CloseTest extends \PHPUnit_Framework_TestCase
     public function testNoIndex()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $action = new Close($mockTransport);
         $action->performRequest();
@@ -40,7 +40,7 @@ class CloseTest extends \PHPUnit_Framework_TestCase
     public function testValidClose()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'POST',

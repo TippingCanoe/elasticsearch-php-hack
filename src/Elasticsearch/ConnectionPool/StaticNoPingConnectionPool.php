@@ -27,7 +27,7 @@ class StaticNoPingConnectionPool extends AbstractConnectionPool
      * @param bool $force
      *
      * @return AbstractConnection
-     * @throws \Elasticsearch\Common\Exceptions\NoNodesAvailableException
+     * @throws \TippingCanoeEs\Common\Exceptions\NoNodesAvailableException
      */
     public function nextConnection($force = false)
     {

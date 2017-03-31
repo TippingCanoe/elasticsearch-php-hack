@@ -186,11 +186,11 @@ $client = new Elasticsearch\Client($params);
 [source,php]
 ----
 $paramDefaults = array(
-    'connectionClass'       => '\Elasticsearch\Connections\GuzzleConnection',
-    'connectionFactoryClass'=> '\Elasticsearch\Connections\ConnectionFactory',
-    'connectionPoolClass'   => '\Elasticsearch\ConnectionPool\StaticNoPingConnectionPool',
-    'selectorClass'         => '\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector',
-    'serializerClass'       => '\Elasticsearch\Serializers\SmartSerializer',
+    'connectionClass'       => '\TippingCanoeEs\Connections\GuzzleConnection',
+    'connectionFactoryClass'=> '\TippingCanoeEs\Connections\ConnectionFactory',
+    'connectionPoolClass'   => '\TippingCanoeEs\ConnectionPool\StaticNoPingConnectionPool',
+    'selectorClass'         => '\TippingCanoeEs\ConnectionPool\Selectors\RoundRobinSelector',
+    'serializerClass'       => '\TippingCanoeEs\Serializers\SmartSerializer',
     'sniffOnStart'          => false,
     'connectionParams'      => array(),
     'logging'               => false,

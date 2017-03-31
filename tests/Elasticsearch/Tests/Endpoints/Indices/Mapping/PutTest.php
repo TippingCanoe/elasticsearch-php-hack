@@ -32,7 +32,7 @@ class PutTest extends \PHPUnit_Framework_TestCase
     public function testNoType()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $index = new Put($mockTransport);
         $index->setIndex('testIndex')->setBody(array())->performRequest();
@@ -45,7 +45,7 @@ class PutTest extends \PHPUnit_Framework_TestCase
     public function testNoBody()
     {
 
-        $mockTransport = m::mock('\Elasticsearch\Transport');
+        $mockTransport = m::mock('\TippingCanoeEs\Transport');
 
         $index = new Put($mockTransport);
         $index->setIndex('testType')->setType('testType')->performRequest();
@@ -58,7 +58,7 @@ class PutTest extends \PHPUnit_Framework_TestCase
 
         $body = array('field' => 'value');
 
-        $mockTransport = m::mock('\Elasticsearch\Transport')
+        $mockTransport = m::mock('\TippingCanoeEs\Transport')
                          ->shouldReceive('performRequest')->once()
                          ->with(
                                  'PUT',
