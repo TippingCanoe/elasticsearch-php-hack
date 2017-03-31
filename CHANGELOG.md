@@ -1,3 +1,6 @@
+## Release 1.3.5
+- hacking version to work alongside the v5 version
+
 ## Release 1.3.4
 - Pin mockery on specific version [[e9aa82c]](http://github.com/elasticsearch/elasticsearch-php/commit/e9aa82c)
 - Update Composer.json with PSR-4 [[19d5f11]](http://github.com/elasticsearch/elasticsearch-php/commit/19d5f11)
