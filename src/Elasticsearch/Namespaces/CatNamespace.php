@@ -5,7 +5,7 @@
  * Time: 5:13 PM
  */
 
-namespace Elasticsearch\Namespaces;
+namespace TippingCanoe\Namespaces;
 
 /**
  * Class CatNamespace

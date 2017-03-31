@@ -5,7 +5,7 @@
  * Time: 9:49 AM
  */
 
-namespace Elasticsearch\Endpoints;
+namespace TippingCanoe\Endpoints;
 
 
 use Elasticsearch\Common\Exceptions\UnexpectedValueException;

@@ -5,7 +5,7 @@
  * Time: 3:03 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Template;
+namespace TippingCanoe\Tests\Endpoints\Indices\Template;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Common\Exceptions\RuntimeException;

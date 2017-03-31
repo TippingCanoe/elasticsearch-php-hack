@@ -5,7 +5,7 @@
  * Time: 2:43 PM
  */
 
-namespace Elasticsearch\Tests\Connections;
+namespace TippingCanoe\Tests\Connections;
 use Elasticsearch;
 use Elasticsearch\Common\Exceptions\Curl;
 use Guzzle\Http\Client;

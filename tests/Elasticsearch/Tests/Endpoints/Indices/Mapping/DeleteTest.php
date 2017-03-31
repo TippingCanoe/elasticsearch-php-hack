@@ -5,7 +5,7 @@
  * Time: 12:53 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Mapping;
+namespace TippingCanoe\Tests\Endpoints\Indices\Mapping;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints\Indices\Mapping\Delete;

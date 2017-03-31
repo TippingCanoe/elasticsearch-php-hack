@@ -5,7 +5,7 @@
  * Time: 2:53 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Template;
+namespace TippingCanoe\Tests\Endpoints\Indices\Template;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints\Indices\Template\Delete;

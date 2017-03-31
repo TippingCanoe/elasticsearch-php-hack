@@ -5,7 +5,7 @@
  * Time: 2:15 PM
  */
 
-namespace Elasticsearch\Common\Exceptions;
+namespace TippingCanoe\Common\Exceptions;
 
 /**
  * NoShardAvailableException

@@ -5,7 +5,7 @@
  * Time: 2:59 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Settings;
+namespace TippingCanoe\Tests\Endpoints\Indices\Settings;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Endpoints\Indices\Settings\Put;

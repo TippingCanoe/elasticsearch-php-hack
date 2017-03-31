@@ -5,7 +5,7 @@
  * Time: 1:05 PM
  */
 
-namespace Elasticsearch\Common\Exceptions;
+namespace TippingCanoe\Common\Exceptions;
 
 /**
  * RoutingMissingException, thrown on when a routing value is required but

@@ -6,7 +6,7 @@
  */
 
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Alias;
+namespace TippingCanoe\Tests\Endpoints\Indices\Alias;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Common\Exceptions\RuntimeException;

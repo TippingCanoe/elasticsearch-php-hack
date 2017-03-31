@@ -5,7 +5,7 @@
  * Time: 6:03 PM
  */
 
-namespace Elasticsearch\Endpoints\Cluster\Nodes;
+namespace TippingCanoe\Endpoints\Cluster\Nodes;
 
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;

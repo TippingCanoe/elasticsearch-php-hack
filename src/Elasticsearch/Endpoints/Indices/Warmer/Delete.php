@@ -5,7 +5,7 @@
  * Time: 14:34:49 pm
  */
 
-namespace Elasticsearch\Endpoints\Indices\Warmer;
+namespace TippingCanoe\Endpoints\Indices\Warmer;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;

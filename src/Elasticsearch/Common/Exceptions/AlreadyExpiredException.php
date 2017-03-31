@@ -5,7 +5,7 @@
  * Time: 2:32 PM
  */
 
-namespace Elasticsearch\Common\Exceptions;
+namespace TippingCanoe\Common\Exceptions;
 
 /**
  * AlreadyExpiredException, thrown when a document has already expired

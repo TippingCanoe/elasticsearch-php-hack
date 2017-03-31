@@ -5,7 +5,7 @@
  * Time: 2:13 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices;
+namespace TippingCanoe\Tests\Endpoints\Indices;
 
 use Elasticsearch\Endpoints\Indices\Delete;
 use Mockery as m;

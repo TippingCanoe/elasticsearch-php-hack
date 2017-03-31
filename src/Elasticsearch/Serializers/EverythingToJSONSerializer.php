@@ -5,7 +5,7 @@
  * Time: 9:04 AM
  */
 
-namespace Elasticsearch\Serializers;
+namespace TippingCanoe\Serializers;
 
 /**
  * Class EverythingToJSONSerializer

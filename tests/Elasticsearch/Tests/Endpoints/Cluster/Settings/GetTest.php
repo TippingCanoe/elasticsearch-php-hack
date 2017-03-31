@@ -5,7 +5,7 @@
  * Time: 1:55 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Cluster\Settings;
+namespace TippingCanoe\Tests\Endpoints\Cluster\Settings;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Endpoints\Cluster\Settings\Get;

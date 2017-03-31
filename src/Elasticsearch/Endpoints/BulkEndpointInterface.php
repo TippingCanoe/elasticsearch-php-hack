@@ -5,7 +5,7 @@
  * Time: 8:57 PM
  */
 
-namespace Elasticsearch\Endpoints;
+namespace TippingCanoe\Endpoints;
 
 
 use Elasticsearch\Serializers\SerializerInterface;

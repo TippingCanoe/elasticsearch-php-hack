@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Serializers;
+namespace TippingCanoe\Serializers;
 
 use Elasticsearch\Common\Exceptions\Serializer\JsonSerializationError;
 use Elasticsearch\Common\Exceptions\Serializer\JsonDeserializationError;

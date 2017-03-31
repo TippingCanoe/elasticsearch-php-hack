@@ -5,7 +5,7 @@
  * Time: 11:13 AM
  */
 
-namespace Elasticsearch\Benchmarks;
+namespace TippingCanoe\Benchmarks;
 
 use \Athletic\AthleticEvent;
 use Elasticsearch\Client;

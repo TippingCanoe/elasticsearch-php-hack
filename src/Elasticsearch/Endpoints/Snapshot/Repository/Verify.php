@@ -5,7 +5,7 @@
  * Time: 3:40:00 pm
  */
 
-namespace Elasticsearch\Endpoints\Snapshot\Repository;
+namespace TippingCanoe\Endpoints\Snapshot\Repository;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;

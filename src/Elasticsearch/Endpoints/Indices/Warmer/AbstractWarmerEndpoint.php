@@ -5,7 +5,7 @@
  * Time: 3:58 PM
  */
 
-namespace Elasticsearch\Endpoints\Indices\Warmer;
+namespace TippingCanoe\Endpoints\Indices\Warmer;
 
 
 use Elasticsearch\Common\Exceptions\RuntimeException;

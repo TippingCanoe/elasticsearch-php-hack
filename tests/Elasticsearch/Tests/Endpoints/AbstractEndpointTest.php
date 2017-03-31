@@ -5,7 +5,7 @@
  * Time: 11:36 AM
  */
 
-namespace Elasticsearch\Tests\Endpoints;
+namespace TippingCanoe\Tests\Endpoints;
 
 use Elasticsearch\Common\Exceptions\UnexpectedValueException;
 use Elasticsearch\Endpoints\AbstractEndpoint;

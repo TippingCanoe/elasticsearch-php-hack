@@ -5,7 +5,7 @@
  * Time: 4:40 AM
  */
 
-namespace Elasticsearch\Serializers;
+namespace TippingCanoe\Serializers;
 
 interface SerializerInterface
 {

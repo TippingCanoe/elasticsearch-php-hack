@@ -5,7 +5,7 @@
  * Time: 3:43 PM
  */
 
-namespace Elasticsearch\ConnectionPool;
+namespace TippingCanoe\ConnectionPool;
 
 use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
 use Elasticsearch\ConnectionPool\Selectors\SelectorInterface;

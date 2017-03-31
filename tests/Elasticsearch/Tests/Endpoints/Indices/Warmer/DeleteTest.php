@@ -5,7 +5,7 @@
  * Time: 4:01 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Warmer;
+namespace TippingCanoe\Tests\Endpoints\Indices\Warmer;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints\Indices\Warmer\Delete;

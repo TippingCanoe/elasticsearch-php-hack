@@ -5,7 +5,7 @@
  * Time: 2:25 PM
  */
 
-namespace Elasticsearch\Endpoints\Script;
+namespace TippingCanoe\Endpoints\Script;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;

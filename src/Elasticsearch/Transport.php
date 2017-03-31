@@ -5,7 +5,7 @@
  * Time: 9:51 PM
  */
 
-namespace Elasticsearch;
+namespace TippingCanoe;
 
 use Elasticsearch\Common\Exceptions\TransportException;
 use Elasticsearch\Common\Exceptions;

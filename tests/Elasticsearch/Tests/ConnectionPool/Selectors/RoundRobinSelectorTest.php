@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Tests\ConnectionPool\Selectors;
+namespace TippingCanoe\Tests\ConnectionPool\Selectors;
 use Elasticsearch;
 
 /**

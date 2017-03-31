@@ -5,7 +5,7 @@
  * Time: 2:25 PM
  */
 
-namespace Elasticsearch\Endpoints\Template;
+namespace TippingCanoe\Endpoints\Template;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;

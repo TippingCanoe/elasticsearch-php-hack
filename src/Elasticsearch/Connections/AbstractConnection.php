@@ -5,7 +5,7 @@
  * Time: 11:00 PM
  */
 
-namespace Elasticsearch\Connections;
+namespace TippingCanoe\Connections;
 
 use Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost;
 use Elasticsearch\Common\Exceptions\Curl\CouldNotResolveHostException;

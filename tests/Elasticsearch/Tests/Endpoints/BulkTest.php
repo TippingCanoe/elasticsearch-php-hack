@@ -5,7 +5,7 @@
  * Time: 11:10 AM
  */
 
-namespace Elasticsearch\Tests\Endpoints;
+namespace TippingCanoe\Tests\Endpoints;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Endpoints\Bulk;

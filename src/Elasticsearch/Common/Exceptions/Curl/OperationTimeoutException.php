@@ -5,7 +5,7 @@
  * Time: 3:53 PM
  */
 
-namespace Elasticsearch\Common\Exceptions\Curl;
+namespace TippingCanoe\Common\Exceptions\Curl;
 
 
 use Elasticsearch\Common\Exceptions\ElasticsearchException;

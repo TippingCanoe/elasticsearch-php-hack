@@ -5,7 +5,7 @@
  * Time: 2:22 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices;
+namespace TippingCanoe\Tests\Endpoints\Indices;
 
 use Elasticsearch\Endpoints\Indices\Flush;
 use Mockery as m;

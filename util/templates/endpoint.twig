@@ -5,7 +5,7 @@
  * Time: {{ "now"|date("H:i:s a") }}
  */
 
-namespace Elasticsearch\Endpoints{% for class in namespace %}{{ loop.last ? ';' : '\\' ~ class|title  }}{%  endfor %}
+namespace TippingCanoe\Endpoints{% for class in namespace %}{{ loop.last ? ';' : '\\' ~ class|title  }}{%  endfor %}
 
 
 use Elasticsearch\Endpoints\AbstractEndpoint;

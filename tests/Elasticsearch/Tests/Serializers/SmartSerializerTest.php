@@ -5,7 +5,7 @@
  * Time: 9:07 AM
  */
 
-namespace Elasticsearch\Tests\Serializers;
+namespace TippingCanoe\Tests\Serializers;
 
 use Elasticsearch\Serializers\SmartSerializer;
 use PHPUnit_Framework_TestCase;

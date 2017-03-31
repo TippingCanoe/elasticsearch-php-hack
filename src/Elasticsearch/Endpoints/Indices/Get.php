@@ -5,7 +5,7 @@
  * Time: 11:35::00 AM
  */
 
-namespace Elasticsearch\Endpoints\Indices;
+namespace TippingCanoe\Endpoints\Indices;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;

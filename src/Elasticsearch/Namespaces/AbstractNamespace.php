@@ -5,7 +5,7 @@
  * Time: 5:10 PM
  */
 
-namespace Elasticsearch\Namespaces;
+namespace TippingCanoe\Namespaces;
 
 use Elasticsearch\Common\Exceptions\UnexpectedValueException;
 use Elasticsearch\Transport;

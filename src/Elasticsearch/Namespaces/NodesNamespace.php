@@ -5,7 +5,7 @@
  * Time: 3:21 PM
  */
 
-namespace Elasticsearch\Namespaces;
+namespace TippingCanoe\Namespaces;
 
 /**
  * Class NodesNamespace

@@ -5,7 +5,7 @@
  * Time: 9:41 AM
  */
 
-namespace Elasticsearch\Tests\ConnectionPool\Selectors;
+namespace TippingCanoe\Tests\ConnectionPool\Selectors;
 use Elasticsearch;
 use Mockery as m;
 

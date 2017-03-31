@@ -5,7 +5,7 @@
  * Time: 1:29 PM
  */
 
-namespace Elasticsearch\Connections;
+namespace TippingCanoe\Connections;
 
 use Elasticsearch\Common\AbstractFactory;
 

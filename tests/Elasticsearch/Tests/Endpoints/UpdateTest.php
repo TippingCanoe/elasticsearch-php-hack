@@ -5,7 +5,7 @@
  * Time: 1:02 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints;
+namespace TippingCanoe\Tests\Endpoints;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints\Update;

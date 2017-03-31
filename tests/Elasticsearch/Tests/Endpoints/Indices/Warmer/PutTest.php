@@ -5,7 +5,7 @@
  * Time: 4:13 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Warmer;
+namespace TippingCanoe\Tests\Endpoints\Indices\Warmer;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Common\Exceptions\RuntimeException;

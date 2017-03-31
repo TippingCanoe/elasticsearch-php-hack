@@ -6,7 +6,7 @@
  */
 
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Exists;
+namespace TippingCanoe\Tests\Endpoints\Indices\Exists;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints\Indices\Exists;

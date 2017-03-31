@@ -5,7 +5,7 @@
  * Time: 9:59 PM
  */
 
-namespace Elasticsearch\Connections;
+namespace TippingCanoe\Connections;
 
 use Elasticsearch\Common\Exceptions\AlreadyExpiredException;
 use Elasticsearch\Common\Exceptions\Authentication401Exception;

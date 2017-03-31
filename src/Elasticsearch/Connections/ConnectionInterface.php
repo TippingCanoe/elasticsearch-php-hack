@@ -5,7 +5,7 @@
  * Time: 11:42 AM
  */
 
-namespace Elasticsearch\Connections;
+namespace TippingCanoe\Connections;
 
 use Psr\Log\LoggerInterface;
 

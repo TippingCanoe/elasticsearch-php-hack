@@ -5,7 +5,7 @@
  * Time: 12:59 PM
  */
 
-namespace Elasticsearch\Tests;
+namespace TippingCanoe\Tests;
 use Elasticsearch;
 use Elasticsearch\Common\Exceptions\AlreadyExpiredException;
 use Elasticsearch\Common\Exceptions\BadRequest400Exception;

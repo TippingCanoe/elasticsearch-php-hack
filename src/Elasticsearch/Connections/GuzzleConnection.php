@@ -5,7 +5,7 @@
  * Time: 10:39 AM
  */
 
-namespace Elasticsearch\Connections;
+namespace TippingCanoe\Connections;
 
 
 use Elasticsearch\Common\Exceptions\AlreadyExpiredException;

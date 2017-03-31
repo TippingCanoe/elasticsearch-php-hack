@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Common\Exceptions;
+namespace TippingCanoe\Common\Exceptions;
 
 /**
  * Authentication401Exception, thrown on 401 authentication http error

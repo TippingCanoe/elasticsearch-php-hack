@@ -5,7 +5,7 @@
  * Time: 8:26 AM
  */
 
-namespace Elasticsearch\Common;
+namespace TippingCanoe\Common;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints;

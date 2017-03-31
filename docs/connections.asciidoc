@@ -85,7 +85,7 @@ If you wish to completely write your own connection class, you just need to impl
 
 [source,php]
 ----
-namespace Elasticsearch\Connections;
+namespace TippingCanoe\Connections;
 
 use Psr\Log\LoggerInterface;
 

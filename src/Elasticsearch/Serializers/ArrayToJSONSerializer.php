@@ -5,7 +5,7 @@
  * Time: 10:00 PM
  */
 
-namespace Elasticsearch\Serializers;
+namespace TippingCanoe\Serializers;
 
 /**
  * Class JSONSerializer

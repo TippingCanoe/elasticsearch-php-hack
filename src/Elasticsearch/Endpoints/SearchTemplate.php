@@ -5,7 +5,7 @@
  * Time: 5:09 PM
  */
 
-namespace Elasticsearch\Endpoints;
+namespace TippingCanoe\Endpoints;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Endpoints\AbstractEndpoint;

@@ -5,7 +5,7 @@
  * Time: 8:59 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Alias;
+namespace TippingCanoe\Tests\Endpoints\Indices\Alias;
 
 use Elasticsearch\Common\Exceptions\RuntimeException;
 use Elasticsearch\Endpoints\Indices\Alias\Delete;

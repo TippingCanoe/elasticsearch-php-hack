@@ -11,7 +11,7 @@
  * @link     http://elasticsearch.org
  */
 
-namespace Elasticsearch\Common\Exceptions;
+namespace TippingCanoe\Common\Exceptions;
 
 /**
  * Generic Exception interface

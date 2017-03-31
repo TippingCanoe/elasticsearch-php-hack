@@ -5,7 +5,7 @@
  * Time: 9:20 PM
  */
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Alias;
+namespace TippingCanoe\Tests\Endpoints\Indices\Alias;
 
 use Elasticsearch\Common\Exceptions\InvalidArgumentException;
 use Elasticsearch\Endpoints\Indices\Aliases\Get;

@@ -5,7 +5,7 @@
  * Time: 3:32 PM
  */
 
-namespace Elasticsearch\Common;
+namespace TippingCanoe\Common;
 
 
 use Psr\Log\AbstractLogger;

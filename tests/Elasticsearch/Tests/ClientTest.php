@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Tests;
+namespace TippingCanoe\Tests;
 use Elasticsearch;
 
 use Monolog\Logger;

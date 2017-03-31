@@ -6,7 +6,7 @@
  */
 
 
-namespace Elasticsearch\Tests\Endpoints\Indices;
+namespace TippingCanoe\Tests\Endpoints\Indices;
 
 use Elasticsearch\Endpoints\Indices\Validate\Query;
 use Mockery as m;

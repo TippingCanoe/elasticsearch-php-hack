@@ -6,7 +6,7 @@
  *
  */
 
-namespace Elasticsearch\Common\Exceptions;
+namespace TippingCanoe\Common\Exceptions;
 
 /**
  *

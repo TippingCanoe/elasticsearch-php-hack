@@ -5,7 +5,7 @@
  * Time: 1:27 PM
  */
 
-namespace Elasticsearch\Common;
+namespace TippingCanoe\Common;
 
 
 use Pimple\Container as Pimple;

@@ -5,7 +5,7 @@
  * Time: 11:41 AM
  */
 
-namespace Elasticsearch;
+namespace TippingCanoe;
 
 use Elasticsearch\Common\DICBuilder;
 use Elasticsearch\Common\EmptyLogger;

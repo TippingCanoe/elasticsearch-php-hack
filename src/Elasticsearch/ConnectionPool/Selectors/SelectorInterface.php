@@ -5,7 +5,7 @@
  * Time: 8:30 PM
  */
 
-namespace Elasticsearch\ConnectionPool\Selectors;
+namespace TippingCanoe\ConnectionPool\Selectors;
 
 interface SelectorInterface
 {

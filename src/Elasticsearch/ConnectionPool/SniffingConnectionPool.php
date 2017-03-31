@@ -5,7 +5,7 @@
  * Time: 7:36 PM
  */
 
-namespace Elasticsearch\ConnectionPool;
+namespace TippingCanoe\ConnectionPool;
 
 
 use Elasticsearch\Common\Exceptions\Curl\OperationTimeoutException;

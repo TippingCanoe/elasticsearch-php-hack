@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Common\Exceptions\Serializer;
+namespace TippingCanoe\Common\Exceptions\Serializer;
 
 /**
  * Thrown when there's an error serialization a PHP object or array to a JSON

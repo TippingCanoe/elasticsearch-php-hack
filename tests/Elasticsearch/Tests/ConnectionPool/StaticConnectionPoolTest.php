@@ -1,6 +1,6 @@
 <?php
 
-namespace Elasticsearch\Tests\ConnectionPool;
+namespace TippingCanoe\Tests\ConnectionPool;
 use Elasticsearch;
 use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
 use Mockery as m;

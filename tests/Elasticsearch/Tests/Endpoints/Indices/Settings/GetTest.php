@@ -6,7 +6,7 @@
  */
 
 
-namespace Elasticsearch\Tests\Endpoints\Indices\Settings;
+namespace TippingCanoe\Tests\Endpoints\Indices\Settings;
 
 use Elasticsearch\Endpoints\Indices\Settings\Get;
 use Mockery as m;

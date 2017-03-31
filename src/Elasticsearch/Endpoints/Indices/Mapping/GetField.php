@@ -6,7 +6,7 @@
  */
 
 
-namespace Elasticsearch\Endpoints\Indices\Mapping;
+namespace TippingCanoe\Endpoints\Indices\Mapping;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;

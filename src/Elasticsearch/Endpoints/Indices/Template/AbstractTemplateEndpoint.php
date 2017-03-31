@@ -5,7 +5,7 @@
  * Time: 2:51 PM
  */
 
-namespace Elasticsearch\Endpoints\Indices\Template;
+namespace TippingCanoe\Endpoints\Indices\Template;
 
 
 use Elasticsearch\Endpoints\AbstractEndpoint;

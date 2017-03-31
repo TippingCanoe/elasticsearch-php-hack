@@ -5,7 +5,7 @@
  * Time: 16:47:11 pm
  */
 
-namespace Elasticsearch\Endpoints\Indices\Validate;
+namespace TippingCanoe\Endpoints\Indices\Validate;
 
 use Elasticsearch\Endpoints\AbstractEndpoint;
 use Elasticsearch\Common\Exceptions;
