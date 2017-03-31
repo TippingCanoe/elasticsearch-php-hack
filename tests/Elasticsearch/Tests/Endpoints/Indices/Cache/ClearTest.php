@@ -6,9 +6,9 @@
  */
 
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Cache;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Cache;
 
-use Elasticsearch\Endpoints\Indices\Cache\Clear;
+use TippingCanoeEs\Endpoints\Indices\Cache\Clear;
 use Mockery as m;
 
 /**

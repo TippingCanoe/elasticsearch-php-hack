@@ -5,12 +5,12 @@
  * Time: 11:00 PM
  */
 
-namespace TippingCanoe\Connections;
+namespace TippingCanoeEs\Connections;
 
-use Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost;
-use Elasticsearch\Common\Exceptions\Curl\CouldNotResolveHostException;
-use Elasticsearch\Common\Exceptions\Curl\OperationTimeoutException;
-use Elasticsearch\Common\Exceptions\TransportException;
+use TippingCanoeEs\Common\Exceptions\Curl\CouldNotConnectToHost;
+use TippingCanoeEs\Common\Exceptions\Curl\CouldNotResolveHostException;
+use TippingCanoeEs\Common\Exceptions\Curl\OperationTimeoutException;
+use TippingCanoeEs\Common\Exceptions\TransportException;
 use Psr\Log\LoggerInterface;
 
 /**

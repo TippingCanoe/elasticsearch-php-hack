@@ -5,10 +5,10 @@
  * Time: 2:53 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Template;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Template;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Template\Delete;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Template\Delete;
 use Mockery as m;
 
 /**

@@ -5,7 +5,7 @@
  * Time: 1:05 PM
  */
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  * RoutingMissingException, thrown on when a routing value is required but

@@ -5,20 +5,20 @@
  * Time: 11:41 AM
  */
 
-namespace TippingCanoe;
+namespace TippingCanoeEs;
 
-use Elasticsearch\Common\DICBuilder;
-use Elasticsearch\Common\EmptyLogger;
-use Elasticsearch\Common\Exceptions;
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Elasticsearch\Common\Exceptions\RoutingMissingException;
-use Elasticsearch\Common\Exceptions\UnexpectedValueException;
-use Elasticsearch\Endpoints;
-use Elasticsearch\Namespaces\CatNamespace;
-use Elasticsearch\Namespaces\ClusterNamespace;
-use Elasticsearch\Namespaces\IndicesNamespace;
-use Elasticsearch\Namespaces\NodesNamespace;
-use Elasticsearch\Namespaces\SnapshotNamespace;
+use TippingCanoeEs\Common\DICBuilder;
+use TippingCanoeEs\Common\EmptyLogger;
+use TippingCanoeEs\Common\Exceptions;
+use TippingCanoeEs\Common\Exceptions\Missing404Exception;
+use TippingCanoeEs\Common\Exceptions\RoutingMissingException;
+use TippingCanoeEs\Common\Exceptions\UnexpectedValueException;
+use TippingCanoeEs\Endpoints;
+use TippingCanoeEs\Namespaces\CatNamespace;
+use TippingCanoeEs\Namespaces\ClusterNamespace;
+use TippingCanoeEs\Namespaces\IndicesNamespace;
+use TippingCanoeEs\Namespaces\NodesNamespace;
+use TippingCanoeEs\Namespaces\SnapshotNamespace;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Monolog\Processor\IntrospectionProcessor;

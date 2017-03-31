@@ -5,9 +5,9 @@
  * Time: 1:29 PM
  */
 
-namespace TippingCanoe\Connections;
+namespace TippingCanoeEs\Connections;
 
-use Elasticsearch\Common\AbstractFactory;
+use TippingCanoeEs\Common\AbstractFactory;
 
 class ConnectionFactory extends AbstractFactory
 {

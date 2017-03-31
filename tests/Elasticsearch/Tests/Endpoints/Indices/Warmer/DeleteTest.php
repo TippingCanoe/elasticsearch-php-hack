@@ -5,10 +5,10 @@
  * Time: 4:01 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Warmer;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Warmer;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Warmer\Delete;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Warmer\Delete;
 use Mockery as m;
 
 /**

@@ -5,10 +5,10 @@
  * Time: 11:36 AM
  */
 
-namespace TippingCanoe\Tests\Endpoints;
+namespace TippingCanoeEs\Tests\Endpoints;
 
-use Elasticsearch\Common\Exceptions\UnexpectedValueException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions\UnexpectedValueException;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
 use Mockery as m;
 use Symfony\Component\Config\Definition\Exception\Exception;
 

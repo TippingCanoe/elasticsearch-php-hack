@@ -1,6 +1,6 @@
 <?php
 
-namespace TippingCanoe\Common\Exceptions\Serializer;
+namespace TippingCanoeEs\Common\Exceptions\Serializer;
 
 /**
  * Thrown when there's an error unserializing a JSON string to a PHP array.

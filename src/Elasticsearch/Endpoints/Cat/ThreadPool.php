@@ -5,10 +5,10 @@
  * Time: 13:52:08 pm
  */
 
-namespace TippingCanoe\Endpoints\Cat;
+namespace TippingCanoeEs\Endpoints\Cat;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
 
 /**
  * Class ThreadPool

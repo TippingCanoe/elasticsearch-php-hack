@@ -5,10 +5,10 @@
  * Time: 1:02 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Cluster\Node;
+namespace TippingCanoeEs\Tests\Endpoints\Cluster\Node;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Endpoints\Cluster\Nodes\Shutdown;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Endpoints\Cluster\Nodes\Shutdown;
 use Mockery as m;
 
 /**

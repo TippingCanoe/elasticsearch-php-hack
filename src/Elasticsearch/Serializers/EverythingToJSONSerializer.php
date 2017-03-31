@@ -5,7 +5,7 @@
  * Time: 9:04 AM
  */
 
-namespace TippingCanoe\Serializers;
+namespace TippingCanoeEs\Serializers;
 
 /**
  * Class EverythingToJSONSerializer

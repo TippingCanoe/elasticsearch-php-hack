@@ -5,10 +5,10 @@
  * Time: 1:02 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Cluster;
+namespace TippingCanoeEs\Tests\Endpoints\Cluster;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Endpoints\Cluster\Reroute;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Endpoints\Cluster\Reroute;
 use Mockery as m;
 
 /**

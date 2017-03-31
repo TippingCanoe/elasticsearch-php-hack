@@ -5,10 +5,10 @@
  * Time: 13:33:19 pm
  */
 
-namespace TippingCanoe\Endpoints\Indices\Gateway;
+namespace TippingCanoeEs\Endpoints\Indices\Gateway;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
 
 /**
  * Class Snapshot

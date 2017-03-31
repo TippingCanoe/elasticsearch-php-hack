@@ -5,10 +5,10 @@
  * Time: 1:02 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints;
+namespace TippingCanoeEs\Tests\Endpoints;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Update;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Update;
 use Mockery as m;
 
 /**

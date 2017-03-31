@@ -5,9 +5,9 @@
  * Time: 10:00 PM
  */
 
-namespace TippingCanoe\Serializers;
+namespace TippingCanoeEs\Serializers;
 
-use Elasticsearch\Common\Exceptions\Serializer\JsonErrorException;
+use TippingCanoeEs\Common\Exceptions\Serializer\JsonErrorException;
 
 /**
  * Class SmartSerializer

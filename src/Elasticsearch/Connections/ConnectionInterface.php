@@ -5,7 +5,7 @@
  * Time: 11:42 AM
  */
 
-namespace TippingCanoe\Connections;
+namespace TippingCanoeEs\Connections;
 
 use Psr\Log\LoggerInterface;
 

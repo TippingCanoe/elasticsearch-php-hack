@@ -5,7 +5,7 @@
  * Time: 10:00 PM
  */
 
-namespace TippingCanoe\Serializers;
+namespace TippingCanoeEs\Serializers;
 
 /**
  * Class JSONSerializer

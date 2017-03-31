@@ -1,9 +1,9 @@
 <?php
 
-namespace TippingCanoe\Serializers;
+namespace TippingCanoeEs\Serializers;
 
-use Elasticsearch\Common\Exceptions\Serializer\JsonSerializationError;
-use Elasticsearch\Common\Exceptions\Serializer\JsonDeserializationError;
+use TippingCanoeEs\Common\Exceptions\Serializer\JsonSerializationError;
+use TippingCanoeEs\Common\Exceptions\Serializer\JsonDeserializationError;
 
 /**
  * An abstract base class for serializers that go to/from JSON.

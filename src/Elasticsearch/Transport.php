@@ -5,14 +5,14 @@
  * Time: 9:51 PM
  */
 
-namespace TippingCanoe;
+namespace TippingCanoeEs;
 
-use Elasticsearch\Common\Exceptions\TransportException;
-use Elasticsearch\Common\Exceptions;
-use Elasticsearch\ConnectionPool\AbstractConnectionPool;
-use Elasticsearch\Connections\AbstractConnection;
-use Elasticsearch\Connections\ConnectionInterface;
-use Elasticsearch\Serializers\SerializerInterface;
+use TippingCanoeEs\Common\Exceptions\TransportException;
+use TippingCanoeEs\Common\Exceptions;
+use TippingCanoeEs\ConnectionPool\AbstractConnectionPool;
+use TippingCanoeEs\Connections\AbstractConnection;
+use TippingCanoeEs\Connections\ConnectionInterface;
+use TippingCanoeEs\Serializers\SerializerInterface;
 use Psr\Log\LoggerInterface;
 
 /**

@@ -5,11 +5,11 @@
  * Time: 9:20 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Alias;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Alias;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Endpoints\Indices\Aliases\Get;
-use Elasticsearch\Endpoints\Indices\Aliases\Update;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Endpoints\Indices\Aliases\Get;
+use TippingCanoeEs\Endpoints\Indices\Aliases\Update;
 use Mockery as m;
 
 /**

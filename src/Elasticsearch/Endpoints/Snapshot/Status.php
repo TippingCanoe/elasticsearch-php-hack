@@ -5,10 +5,10 @@
  * Time: 12:04 PM
  */
 
-namespace TippingCanoe\Endpoints\Snapshot;
+namespace TippingCanoeEs\Endpoints\Snapshot;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
 
 /**
  * Class Status

@@ -6,9 +6,9 @@
  */
 
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Settings;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Settings;
 
-use Elasticsearch\Endpoints\Indices\Settings\Get;
+use TippingCanoeEs\Endpoints\Indices\Settings\Get;
 use Mockery as m;
 
 /**

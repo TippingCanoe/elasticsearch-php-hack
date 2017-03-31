@@ -5,22 +5,22 @@
  * Time: 9:59 PM
  */
 
-namespace TippingCanoe\Connections;
+namespace TippingCanoeEs\Connections;
 
-use Elasticsearch\Common\Exceptions\AlreadyExpiredException;
-use Elasticsearch\Common\Exceptions\Authentication401Exception;
-use Elasticsearch\Common\Exceptions\BadRequest400Exception;
-use Elasticsearch\Common\Exceptions\Conflict409Exception;
-use Elasticsearch\Common\Exceptions\Forbidden403Exception;
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Elasticsearch\Common\Exceptions\NoDocumentsToGetException;
-use Elasticsearch\Common\Exceptions\NoShardAvailableException;
-use Elasticsearch\Common\Exceptions\RoutingMissingException;
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Common\Exceptions\ScriptLangNotSupportedException;
-use Elasticsearch\Common\Exceptions\ServerErrorResponseException;
-use Elasticsearch\Common\Exceptions\TransportException;
+use TippingCanoeEs\Common\Exceptions\AlreadyExpiredException;
+use TippingCanoeEs\Common\Exceptions\Authentication401Exception;
+use TippingCanoeEs\Common\Exceptions\BadRequest400Exception;
+use TippingCanoeEs\Common\Exceptions\Conflict409Exception;
+use TippingCanoeEs\Common\Exceptions\Forbidden403Exception;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Common\Exceptions\Missing404Exception;
+use TippingCanoeEs\Common\Exceptions\NoDocumentsToGetException;
+use TippingCanoeEs\Common\Exceptions\NoShardAvailableException;
+use TippingCanoeEs\Common\Exceptions\RoutingMissingException;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Common\Exceptions\ScriptLangNotSupportedException;
+use TippingCanoeEs\Common\Exceptions\ServerErrorResponseException;
+use TippingCanoeEs\Common\Exceptions\TransportException;
 use Guzzle\Parser\ParserRegistry;
 use Psr\Log\LoggerInterface;
 

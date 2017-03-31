@@ -1,6 +1,6 @@
 <?php
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  * BadRequest400Exception, thrown on 400 conflict http error

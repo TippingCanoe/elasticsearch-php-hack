@@ -5,11 +5,11 @@
  * Time: 3:58 PM
  */
 
-namespace TippingCanoe\Endpoints\Indices\Warmer;
+namespace TippingCanoeEs\Endpoints\Indices\Warmer;
 
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
 
 abstract class AbstractWarmerEndpoint extends AbstractEndpoint
 {

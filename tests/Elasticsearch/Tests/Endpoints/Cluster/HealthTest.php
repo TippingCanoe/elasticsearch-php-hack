@@ -5,9 +5,9 @@
  * Time: 11:10 AM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Cluster;
+namespace TippingCanoeEs\Tests\Endpoints\Cluster;
 
-use Elasticsearch\Endpoints\Cluster\Health;
+use TippingCanoeEs\Endpoints\Cluster\Health;
 use Mockery as m;
 
 /**

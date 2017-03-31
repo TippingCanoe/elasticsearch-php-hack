@@ -5,9 +5,9 @@
  * Time: 1:02 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints;
+namespace TippingCanoeEs\Tests\Endpoints;
 
-use Elasticsearch\Endpoints\Count;
+use TippingCanoeEs\Endpoints\Count;
 use Mockery as m;
 
 /**

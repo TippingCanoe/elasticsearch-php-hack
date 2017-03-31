@@ -5,10 +5,10 @@
  * Time: 3:00 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Template;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Template;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Template\Get;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Template\Get;
 use Mockery as m;
 
 /**

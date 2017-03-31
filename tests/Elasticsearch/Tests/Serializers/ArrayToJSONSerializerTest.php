@@ -5,9 +5,9 @@
  * Time: 9:07 AM
  */
 
-namespace TippingCanoe\Tests\Serializers;
+namespace TippingCanoeEs\Tests\Serializers;
 
-use Elasticsearch\Serializers\ArrayToJSONSerializer;
+use TippingCanoeEs\Serializers\ArrayToJSONSerializer;
 use PHPUnit_Framework_TestCase;
 
 /**

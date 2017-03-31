@@ -5,7 +5,7 @@
  * Time: 2:32 PM
  */
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  * AlreadyExpiredException, thrown when a document has already expired

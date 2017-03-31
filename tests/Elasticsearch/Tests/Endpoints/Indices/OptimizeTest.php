@@ -5,9 +5,9 @@
  * Time: 2:48 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices;
+namespace TippingCanoeEs\Tests\Endpoints\Indices;
 
-use Elasticsearch\Endpoints\Indices\Optimize;
+use TippingCanoeEs\Endpoints\Indices\Optimize;
 use Mockery as m;
 
 /**

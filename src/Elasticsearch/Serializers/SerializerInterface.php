@@ -5,7 +5,7 @@
  * Time: 4:40 AM
  */
 
-namespace TippingCanoe\Serializers;
+namespace TippingCanoeEs\Serializers;
 
 interface SerializerInterface
 {

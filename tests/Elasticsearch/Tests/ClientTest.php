@@ -1,7 +1,7 @@
 <?php
 
-namespace TippingCanoe\Tests;
-use Elasticsearch;
+namespace TippingCanoeEs\Tests;
+use TippingCanoeEs;
 
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;

@@ -1,6 +1,6 @@
 <?php
-use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
-use Elasticsearch\ConnectionPool\SniffingConnectionPool;
+use TippingCanoeEs\Common\Exceptions\NoNodesAvailableException;
+use TippingCanoeEs\ConnectionPool\SniffingConnectionPool;
 
 /**
  * Class SniffingConnectionPoolIntegrationTest

@@ -5,10 +5,10 @@
  * Time: 5:10 PM
  */
 
-namespace TippingCanoe\Namespaces;
+namespace TippingCanoeEs\Namespaces;
 
-use Elasticsearch\Common\Exceptions\UnexpectedValueException;
-use Elasticsearch\Transport;
+use TippingCanoeEs\Common\Exceptions\UnexpectedValueException;
+use TippingCanoeEs\Transport;
 
 /**
  * Class AbstractNamespace

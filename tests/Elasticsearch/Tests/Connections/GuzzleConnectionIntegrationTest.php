@@ -5,12 +5,12 @@
  * Time: 2:43 PM
  */
 
-namespace TippingCanoe\Tests\Connections;
-use Elasticsearch;
-use Elasticsearch\Common\Exceptions\Curl;
+namespace TippingCanoeEs\Tests\Connections;
+use TippingCanoeEs;
+use TippingCanoeEs\Common\Exceptions\Curl;
 use Guzzle\Http\Client;
 use Mockery as m;
-use Elasticsearch\Connections\GuzzleConnection;
+use TippingCanoeEs\Connections\GuzzleConnection;
 
 
 /**

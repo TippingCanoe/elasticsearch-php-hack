@@ -5,17 +5,17 @@
  * Time: 12:59 PM
  */
 
-namespace TippingCanoe\Tests;
-use Elasticsearch;
-use Elasticsearch\Common\Exceptions\AlreadyExpiredException;
-use Elasticsearch\Common\Exceptions\BadRequest400Exception;
-use Elasticsearch\Common\Exceptions\ClientErrorResponseException;
-use Elasticsearch\Common\Exceptions\Conflict409Exception;
-use Elasticsearch\Common\Exceptions\Forbidden403Exception;
-use Elasticsearch\Common\Exceptions\Missing404Exception;
-use Elasticsearch\Common\Exceptions\NoDocumentsToGetException;
-use Elasticsearch\Common\Exceptions\RoutingMissingException;
-use Elasticsearch\Common\Exceptions\ServerErrorResponseException;
+namespace TippingCanoeEs\Tests;
+use TippingCanoeEs;
+use TippingCanoeEs\Common\Exceptions\AlreadyExpiredException;
+use TippingCanoeEs\Common\Exceptions\BadRequest400Exception;
+use TippingCanoeEs\Common\Exceptions\ClientErrorResponseException;
+use TippingCanoeEs\Common\Exceptions\Conflict409Exception;
+use TippingCanoeEs\Common\Exceptions\Forbidden403Exception;
+use TippingCanoeEs\Common\Exceptions\Missing404Exception;
+use TippingCanoeEs\Common\Exceptions\NoDocumentsToGetException;
+use TippingCanoeEs\Common\Exceptions\RoutingMissingException;
+use TippingCanoeEs\Common\Exceptions\ServerErrorResponseException;
 use FilesystemIterator;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

@@ -5,7 +5,7 @@
  * Time: 12:39 PM
  */
 
-use Elasticsearch\Connections\ConnectionFactory;
+use TippingCanoeEs\Connections\ConnectionFactory;
 use Mockery as m;
 
 /**

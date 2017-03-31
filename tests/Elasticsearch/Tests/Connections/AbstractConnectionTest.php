@@ -5,9 +5,9 @@
  * Time: 6:38 PM
  */
 
-namespace TippingCanoe\Tests\Connections;
-use Elasticsearch;
-use Elasticsearch\Connections\AbstractConnection;
+namespace TippingCanoeEs\Tests\Connections;
+use TippingCanoeEs;
+use TippingCanoeEs\Connections\AbstractConnection;
 use Mockery as m;
 
 

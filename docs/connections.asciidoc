@@ -85,7 +85,7 @@ If you wish to completely write your own connection class, you just need to impl
 
 [source,php]
 ----
-namespace TippingCanoe\Connections;
+namespace TippingCanoeEs\Connections;
 
 use Psr\Log\LoggerInterface;
 

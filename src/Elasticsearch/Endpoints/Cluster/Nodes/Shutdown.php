@@ -5,10 +5,10 @@
  * Time: 14:34:49 pm
  */
 
-namespace TippingCanoe\Endpoints\Cluster\Nodes;
+namespace TippingCanoeEs\Endpoints\Cluster\Nodes;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
 
 /**
  * Class Shutdown

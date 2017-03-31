@@ -5,10 +5,10 @@
  * Time: 11:13 AM
  */
 
-namespace TippingCanoe\Benchmarks;
+namespace TippingCanoeEs\Benchmarks;
 
 use \Athletic\AthleticEvent;
-use Elasticsearch\Client;
+use TippingCanoeEs\Client;
 
 class IndexingEvent extends AthleticEvent
 {

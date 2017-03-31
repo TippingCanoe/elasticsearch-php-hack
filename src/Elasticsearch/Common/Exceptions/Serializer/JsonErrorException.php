@@ -1,8 +1,8 @@
 <?php
 
-namespace TippingCanoe\Common\Exceptions\Serializer;
+namespace TippingCanoeEs\Common\Exceptions\Serializer;
 
-use Elasticsearch\Common\Exceptions\ElasticsearchException;
+use TippingCanoeEs\Common\Exceptions\ElasticsearchException;
 
 /**
  * Class JsonErrorException

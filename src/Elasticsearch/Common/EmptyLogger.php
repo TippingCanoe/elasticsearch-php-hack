@@ -5,7 +5,7 @@
  * Time: 3:32 PM
  */
 
-namespace TippingCanoe\Common;
+namespace TippingCanoeEs\Common;
 
 
 use Psr\Log\AbstractLogger;

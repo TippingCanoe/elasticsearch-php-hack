@@ -5,11 +5,11 @@
  * Time: 3:53 PM
  */
 
-namespace TippingCanoe\Common\Exceptions\Curl;
+namespace TippingCanoeEs\Common\Exceptions\Curl;
 
 
-use Elasticsearch\Common\Exceptions\ElasticsearchException;
-use Elasticsearch\Common\Exceptions\TransportException;
+use TippingCanoeEs\Common\Exceptions\ElasticsearchException;
+use TippingCanoeEs\Common\Exceptions\TransportException;
 
 /**
  * Class OperationTimeoutException

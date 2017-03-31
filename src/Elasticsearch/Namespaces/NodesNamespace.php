@@ -5,7 +5,7 @@
  * Time: 3:21 PM
  */
 
-namespace TippingCanoe\Namespaces;
+namespace TippingCanoeEs\Namespaces;
 
 /**
  * Class NodesNamespace

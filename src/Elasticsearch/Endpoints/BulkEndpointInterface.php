@@ -5,11 +5,11 @@
  * Time: 8:57 PM
  */
 
-namespace TippingCanoe\Endpoints;
+namespace TippingCanoeEs\Endpoints;
 
 
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use TippingCanoeEs\Serializers\SerializerInterface;
+use TippingCanoeEs\Transport;
 
 interface BulkEndpointInterface {
     public function __construct(Transport $transport, SerializerInterface $serializer);

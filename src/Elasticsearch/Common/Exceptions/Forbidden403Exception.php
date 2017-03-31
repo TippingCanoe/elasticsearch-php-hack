@@ -6,7 +6,7 @@
  *
  */
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  *

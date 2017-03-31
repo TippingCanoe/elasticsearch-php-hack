@@ -5,11 +5,11 @@
  * Time: 4:13 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Warmer;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Warmer;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Warmer\Put;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Warmer\Put;
 use Mockery as m;
 
 /**

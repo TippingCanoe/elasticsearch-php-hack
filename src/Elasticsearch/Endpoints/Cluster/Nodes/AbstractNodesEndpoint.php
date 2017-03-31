@@ -5,11 +5,11 @@
  * Time: 6:03 PM
  */
 
-namespace TippingCanoe\Endpoints\Cluster\Nodes;
+namespace TippingCanoeEs\Endpoints\Cluster\Nodes;
 
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
 
 abstract class AbstractNodesEndpoint extends AbstractEndpoint
 {

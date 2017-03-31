@@ -5,13 +5,13 @@
  * Time: 7:25 PM
  */
 
-namespace TippingCanoe\ConnectionPool;
+namespace TippingCanoeEs\ConnectionPool;
 
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\ConnectionPool\Selectors\SelectorInterface;
-use Elasticsearch\Connections\AbstractConnection;
-use Elasticsearch\Connections\ConnectionFactory;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\ConnectionPool\Selectors\SelectorInterface;
+use TippingCanoeEs\Connections\AbstractConnection;
+use TippingCanoeEs\Connections\ConnectionFactory;
 
 abstract class AbstractConnectionPool
 {

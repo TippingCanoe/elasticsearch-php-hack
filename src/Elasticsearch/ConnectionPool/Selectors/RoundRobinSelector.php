@@ -5,10 +5,10 @@
  * Time: 10:02 PM
  */
 
-namespace TippingCanoe\ConnectionPool\Selectors;
+namespace TippingCanoeEs\ConnectionPool\Selectors;
 
 
-use Elasticsearch\Connections\ConnectionInterface;
+use TippingCanoeEs\Connections\ConnectionInterface;
 
 /**
  * Class RoundRobinSelector

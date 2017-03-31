@@ -5,13 +5,13 @@
  * Time: 7:36 PM
  */
 
-namespace TippingCanoe\ConnectionPool;
+namespace TippingCanoeEs\ConnectionPool;
 
 
-use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
-use Elasticsearch\ConnectionPool\Selectors\SelectorInterface;
-use Elasticsearch\Connections\AbstractConnection;
-use Elasticsearch\Connections\ConnectionFactory;
+use TippingCanoeEs\Common\Exceptions\NoNodesAvailableException;
+use TippingCanoeEs\ConnectionPool\Selectors\SelectorInterface;
+use TippingCanoeEs\Connections\AbstractConnection;
+use TippingCanoeEs\Connections\ConnectionFactory;
 
 class StaticConnectionPool extends AbstractConnectionPool
 {

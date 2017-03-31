@@ -5,16 +5,16 @@
  * Time: 8:26 AM
  */
 
-namespace TippingCanoe\Common;
+namespace TippingCanoeEs\Common;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints;
-use Elasticsearch\Namespaces\CatNamespace;
-use Elasticsearch\Namespaces\ClusterNamespace;
-use Elasticsearch\Namespaces\IndicesNamespace;
-use Elasticsearch\Namespaces\NodesNamespace;
-use Elasticsearch\Namespaces\SnapshotNamespace;
-use Elasticsearch\Transport;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints;
+use TippingCanoeEs\Namespaces\CatNamespace;
+use TippingCanoeEs\Namespaces\ClusterNamespace;
+use TippingCanoeEs\Namespaces\IndicesNamespace;
+use TippingCanoeEs\Namespaces\NodesNamespace;
+use TippingCanoeEs\Namespaces\SnapshotNamespace;
+use TippingCanoeEs\Transport;
 use Psr\Log;
 use Pimple\Container as Pimple;
 

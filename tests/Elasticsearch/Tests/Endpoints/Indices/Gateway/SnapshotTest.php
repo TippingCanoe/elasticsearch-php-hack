@@ -5,9 +5,9 @@
  * Time: 12:46 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Gateway;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Gateway;
 
-use Elasticsearch\Endpoints\Indices\Gateway\Snapshot;
+use TippingCanoeEs\Endpoints\Indices\Gateway\Snapshot;
 use Mockery as m;
 
 /**

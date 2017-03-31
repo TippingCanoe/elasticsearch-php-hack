@@ -5,12 +5,12 @@
  * Time: 16:47:11 pm
  */
 
-namespace TippingCanoe\Endpoints;
+namespace TippingCanoeEs\Endpoints;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
-use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
+use TippingCanoeEs\Serializers\SerializerInterface;
+use TippingCanoeEs\Transport;
 
 /**
  * Class Bulk

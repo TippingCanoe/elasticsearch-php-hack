@@ -5,9 +5,9 @@
  * Time: 5:13 PM
  */
 
-namespace TippingCanoe\Namespaces;
+namespace TippingCanoeEs\Namespaces;
 
-use Elasticsearch\Common\Exceptions\Missing404Exception;
+use TippingCanoeEs\Common\Exceptions\Missing404Exception;
 
 /**
  * Class IndicesNamespace

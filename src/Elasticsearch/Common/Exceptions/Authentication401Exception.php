@@ -1,6 +1,6 @@
 <?php
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  * Authentication401Exception, thrown on 401 authentication http error

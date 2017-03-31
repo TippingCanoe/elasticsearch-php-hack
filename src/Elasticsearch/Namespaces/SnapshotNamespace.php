@@ -5,7 +5,7 @@
  * Time: 4:11 PM
  */
 
-namespace TippingCanoe\Namespaces;
+namespace TippingCanoeEs\Namespaces;
 
 /**
  * Class SnapshotNamespace

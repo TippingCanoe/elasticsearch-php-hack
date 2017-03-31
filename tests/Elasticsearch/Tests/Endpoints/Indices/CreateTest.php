@@ -5,11 +5,11 @@
  * Time: 12:08 PM
  */
 
-namespace TippingCanoe\Tests\Endpoint\Indicess;
+namespace TippingCanoeEs\Tests\Endpoint\Indicess;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Create;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Create;
 use Mockery as m;
 
 /**

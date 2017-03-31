@@ -5,7 +5,7 @@
  * Time: 1:27 PM
  */
 
-namespace TippingCanoe\Common;
+namespace TippingCanoeEs\Common;
 
 
 use Pimple\Container as Pimple;

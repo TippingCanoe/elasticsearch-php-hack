@@ -5,7 +5,7 @@
  * Time: 5:13 PM
  */
 
-namespace TippingCanoe\Namespaces;
+namespace TippingCanoeEs\Namespaces;
 
 /**
  * Class CatNamespace

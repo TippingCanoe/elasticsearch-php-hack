@@ -5,10 +5,10 @@
  * Time: 11:35::00 AM
  */
 
-namespace TippingCanoe\Endpoints\Indices;
+namespace TippingCanoeEs\Endpoints\Indices;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
 
 /**
  * Class Get

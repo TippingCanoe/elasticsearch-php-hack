@@ -6,11 +6,11 @@
  */
 
 
-namespace TippingCanoe\Endpoints\Indices\Alias;
+namespace TippingCanoeEs\Endpoints\Indices\Alias;
 
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
 
 /**
  * Class AbstractNodeEndpoint

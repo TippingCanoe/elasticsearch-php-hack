@@ -5,7 +5,7 @@
  * Time: 8:30 PM
  */
 
-namespace TippingCanoe\ConnectionPool\Selectors;
+namespace TippingCanoeEs\ConnectionPool\Selectors;
 
 interface SelectorInterface
 {

@@ -6,11 +6,11 @@
  */
 
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Mapping;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Mapping;
 
-use Elasticsearch\Common\Exceptions\InvalidArgumentException;
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Mapping\Put;
+use TippingCanoeEs\Common\Exceptions\InvalidArgumentException;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Mapping\Put;
 use Mockery as m;
 
 /**

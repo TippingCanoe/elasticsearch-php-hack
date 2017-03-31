@@ -5,11 +5,11 @@
  * Time: 9:49 AM
  */
 
-namespace TippingCanoe\Endpoints;
+namespace TippingCanoeEs\Endpoints;
 
 
-use Elasticsearch\Common\Exceptions\UnexpectedValueException;
-use Elasticsearch\Transport;
+use TippingCanoeEs\Common\Exceptions\UnexpectedValueException;
+use TippingCanoeEs\Transport;
 
 /**
  * Class AbstractEndpoint

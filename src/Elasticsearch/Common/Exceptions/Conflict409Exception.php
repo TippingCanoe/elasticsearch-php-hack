@@ -1,6 +1,6 @@
 <?php
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  * Conflict409Exception, thrown on 409 conflict http error

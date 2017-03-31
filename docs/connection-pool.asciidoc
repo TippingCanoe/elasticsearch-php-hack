@@ -104,8 +104,8 @@ selector (!!!), but it demonstrates the concept well:
 ----
 namespace MyProject\Selectors;
 
-use Elasticsearch\Connections\ConnectionInterface;
-use Elasticsearch\ConnectionPool\Selectors\SelectorInterface
+use TippingCanoeEs\Connections\ConnectionInterface;
+use TippingCanoeEs\ConnectionPool\Selectors\SelectorInterface
 
 class FirstSelector implements SelectorInterface
 {

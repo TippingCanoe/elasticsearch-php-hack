@@ -5,9 +5,9 @@
  * Time: 9:07 PM
  */
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Alias;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Alias;
 
-use Elasticsearch\Endpoints\Indices\Alias\Get;
+use TippingCanoeEs\Endpoints\Indices\Alias\Get;
 use Mockery as m;
 
 /**

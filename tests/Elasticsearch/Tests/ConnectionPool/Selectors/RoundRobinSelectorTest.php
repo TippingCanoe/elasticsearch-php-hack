@@ -1,7 +1,7 @@
 <?php
 
-namespace TippingCanoe\Tests\ConnectionPool\Selectors;
-use Elasticsearch;
+namespace TippingCanoeEs\Tests\ConnectionPool\Selectors;
+use TippingCanoeEs;
 
 /**
  * Class SnifferTest

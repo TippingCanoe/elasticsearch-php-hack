@@ -5,7 +5,7 @@
  * Time: 2:15 PM
  */
 
-namespace TippingCanoe\Common\Exceptions;
+namespace TippingCanoeEs\Common\Exceptions;
 
 /**
  * NoShardAvailableException

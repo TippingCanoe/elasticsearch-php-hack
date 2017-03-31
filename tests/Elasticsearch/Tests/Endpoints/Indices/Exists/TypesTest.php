@@ -6,10 +6,10 @@
  */
 
 
-namespace TippingCanoe\Tests\Endpoints\Indices\Exists;
+namespace TippingCanoeEs\Tests\Endpoints\Indices\Exists;
 
-use Elasticsearch\Common\Exceptions\RuntimeException;
-use Elasticsearch\Endpoints\Indices\Exists\Types;
+use TippingCanoeEs\Common\Exceptions\RuntimeException;
+use TippingCanoeEs\Endpoints\Indices\Exists\Types;
 use Mockery as m;
 
 /**

@@ -5,10 +5,10 @@
  * Time: 9:38 AM
  */
 
-namespace TippingCanoe\ConnectionPool\Selectors;
+namespace TippingCanoeEs\ConnectionPool\Selectors;
 
 
-use Elasticsearch\Connections\ConnectionInterface;
+use TippingCanoeEs\Connections\ConnectionInterface;
 
 /**
  * Class StickyRoundRobinSelector

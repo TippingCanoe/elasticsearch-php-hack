@@ -1,9 +1,9 @@
 <?php
 
-namespace TippingCanoe\Endpoints\Cat;
+namespace TippingCanoeEs\Endpoints\Cat;
 
-use Elasticsearch\Endpoints\AbstractEndpoint;
-use Elasticsearch\Common\Exceptions;
+use TippingCanoeEs\Endpoints\AbstractEndpoint;
+use TippingCanoeEs\Common\Exceptions;
 
 /**
  * Class Health
