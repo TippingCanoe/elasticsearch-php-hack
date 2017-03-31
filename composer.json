@@ -29,13 +29,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Elasticsearch\\": "src/Elasticsearch/"
+      "TippingCanoeEs\\": "src/Elasticsearch/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Elasticsearch\\Tests\\":      "tests/Elasticsearch/Tests/",
-      "Elasticsearch\\Benchmarks\\": "benchmarks/Elasticsearch/Benchmarks/"
+      "TippingCanoeEs\\Tests\\":      "tests/Elasticsearch/Tests/",
+      "TippingCanoeEs\\Benchmarks\\": "benchmarks/Elasticsearch/Benchmarks/"
     }
   },
   "repositories": [
